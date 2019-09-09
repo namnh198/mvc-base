@@ -1,0 +1,23 @@
+{
+    "name": "tieugum/onion",
+    "description": "Onion Framework",
+    "authors": [
+        {
+            "name": "tieugum",
+            "email": "namptit.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "System\\": "system"
+        },
+        "files": ["helpers/common.php"]
+    },
+    "require-dev": {
+        "filp/whoops": "^2.5"
+    }
+}
