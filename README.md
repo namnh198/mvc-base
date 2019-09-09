@@ -5,7 +5,7 @@ MVC Base is accessible, yet powerful, providing tools needed for large, robust a
 
 ## Install
 ```
-$ git clone https://github.com/tieugum/onion-fw.git your-project
+$ git clone https://github.com/tieugum/mvc-base.git your-project
 $ cd your-project
 $ composer install 
 $ php -S localhost:8000 -t public
